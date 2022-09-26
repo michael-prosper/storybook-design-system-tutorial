@@ -1,0 +1,22 @@
+# Name of our action
+name: "Chromatic"
+
+#The event that will trigger the action
+on: push
+
+# What the action will do
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - run: yarn
+      - uses: chromaui/action@v1
+        with:
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          # As of September 2022, we cannot create a secrete
+          # that begins with GITHUB_, so perhaps this is
+          # automatically passed into our Github Action?
+          # At the start of each workflow run, GitHub automatically creates a unique GITHUB_TOKEN secret to use in your workflow. You can use the GITHUB_TOKEN to authenticate in a workflow run.
+          # See: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
+          token: ${{ secrets.GITHUB_TOKEN }}
