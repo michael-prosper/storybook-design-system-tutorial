@@ -1,7 +1,7 @@
 {
-  "name": "learnstorybook-design-system-template",
+  "name": "@prosper-demo/learnstorybook-design-system",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@storybook/jest": "^0.0.10",
     "@testing-library/jest-dom": "^5.11.4",
@@ -78,5 +78,10 @@
     "prettier": "^2.7.1"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "learnstorybook-design-system-template@0.1.0"
+  "_id": "learnstorybook-design-system-template@0.1.0",
+  "description": "Following along with https://storybook.js.org/tutorials/design-systems-for-developers/react/en/distribute/",
+  "main": "dist/index.js",
+  "repository": "github-work:michael-prosper/storybook-design-system-tutorial.git",
+  "author": "Michael Lustig <mlustig@prosper.com>",
+  "license": "MIT"
 }
