@@ -1,5 +1,5 @@
 {
-  "name": "@prosper-demo/learnstorybook-design-system",
+  "name": "@michael-prosper/learnstorybook-design-system",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -81,7 +81,7 @@
   "_id": "learnstorybook-design-system-template@0.1.0",
   "description": "Following along with https://storybook.js.org/tutorials/design-systems-for-developers/react/en/distribute/",
   "main": "dist/index.js",
-  "repository": "github-work:michael-prosper/storybook-design-system-tutorial.git",
+  "repository": "https://github.com/michael-prosper/storybook-design-system-tutorial.git",
   "author": "Michael Lustig <mlustig@prosper.com>",
   "license": "MIT"
 }
