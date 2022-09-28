@@ -349,3 +349,23 @@ WithInteractions.play = async ({ canvasElement }) => {
     "http://storybook.js.org"
   );
 };
+
+export const Primary = () => (
+  <Button
+    ButtonWrapper={StoryLinkWrapper}
+    appearance="primary"
+    href="http://storybook.js.org"
+  >
+    Primary
+  </Button>
+);
+
+export const Secondary = () => (
+  <Button
+    ButtonWrapper={StoryLinkWrapper}
+    appearance="secondary"
+    href="http://storybook.js.org"
+  >
+    Secondary
+  </Button>
+);
